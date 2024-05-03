@@ -1,3 +1,4 @@
+name: dennylungu-com
 services:
     web:
         build: ./web/
