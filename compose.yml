@@ -1,0 +1,9 @@
+services:
+    web:
+        build: ./web/
+        stdin_open: true
+        tty: true
+        container_name: httpd
+        ports:
+            - 80:80
+            - 443:80
