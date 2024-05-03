@@ -6,4 +6,3 @@ services:
         container_name: httpd
         ports:
             - 80:80
-            - 443:80
